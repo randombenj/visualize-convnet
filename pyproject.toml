@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "visualize-convnet"
+version = "2023-04"
+description = "Visualize output of convolutional layers in a pytorch convnet"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+torch = "^2.0.0"
+torchvision = "^0.15.1"
+ipykernel = "^6.22.0"
+scipy = "^1.10.1"
+matplotlib = "^3.7.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
